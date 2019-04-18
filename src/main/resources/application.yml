@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: digital-sky-proxy
+
+server:
+  port: 8080
+
+zuul:
+  routes:
+    digitalsky:
+      url: http://localhost:8090
